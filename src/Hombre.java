@@ -49,4 +49,10 @@ public class Hombre {
         }while(!robot.estaDormido());
     }
 
+
+
+    public Hombre(String nombre) {
+        this.nombre = nombre;
+
+    }
 }
